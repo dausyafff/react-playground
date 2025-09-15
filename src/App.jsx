@@ -1,10 +1,12 @@
 import Mood from "./Mood"
+import Button from "./Button"
 
 
 function App(){
 return (
-  <>  
-    <Mood hari="senin"/>
+  <>
+  <Mood />
+  <Button />
   </>
 )
 }

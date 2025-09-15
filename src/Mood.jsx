@@ -1,7 +1,7 @@
-function Mood(props){
+function Mood({hari, mood}){
   return (
     <>
-      <h1>Hari ini adalah hari {props.hari}</h1>
+      <h1>Hari ini adalah hari {hari}, Mood : {mood}</h1>
     </>
   )
 }
