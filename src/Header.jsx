@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { TemaContext } from "./TemaContext";
+
 function Header() {
-  return <header>Best Restaurant in The World</header>;
+  const tema = useContext(TemaContext);
+  return <p>Tema saat ini: {tema}</p>;
 }
+
 export default Header;
